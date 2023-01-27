@@ -7,4 +7,5 @@ test
 src/**.js
 coverage
 *.log
+.npmrc
 yarn.lock

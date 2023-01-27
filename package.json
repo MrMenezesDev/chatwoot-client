@@ -1,13 +1,20 @@
 {
-  "name": "@mrdev/chatwoot-client",
+  "name": "@mrmenezesdev/chatwoot-client",
   "version": "1.0.0",
   "description": "Node.js bindings for Chatwoot APIs",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/YOUR_GITHUB_USER_NAME/mrdev-chatwoot-client",
+  "repository": "https://github.com/MrMenezesDev/chatwoot-client",
   "license": "MIT",
-  "keywords": [],
+  "author": "Mr Menezes",
+  "private": false,
+  "keywords": [
+    "chatwoot",
+    "nodejs",
+    "node",
+    "api"
+  ],
   "scripts": {
     "build": "run-p build:*",
     "build:main": "tsc -p tsconfig.json",

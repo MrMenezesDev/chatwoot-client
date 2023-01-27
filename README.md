@@ -1,4 +1,4 @@
-# @mrdev/chatwoot-client
+# @mrmenezesdev/chatwoot-client
 
 A node.js client for Chatwoot APIs
 
@@ -9,19 +9,19 @@ Note: This is a work in progress. Interface can change before a stable release.
 1. Install the library
 
 ```
-yarn add @mrdev/chatwoot-client
+yarn add @mrmenezesdev/chatwoot-client
 ```
 
 or
 
 ```
-npm install --save @mrdev/chatwoot-client
+npm install --save @mrmenezesdev/chatwoot-client
 ```
 
 2. Create a Chatwoot Client by providing the host URL and API Access Token
 
 ```ts
-import { ChatwootClient } from '@mrdev/chatwoot-client';
+import { ChatwootClient } from '@mrmenezesdev/chatwoot-client';
 
 const config = {
   host: 'https://app.chatwoot.com',
